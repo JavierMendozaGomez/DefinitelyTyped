@@ -102,6 +102,7 @@ declare namespace Chance {
         longitude(opts?: Options): number;
         phone(opts?: Options): string;
         postal(): string;
+        postcode(): string;
         province(opts?: Options): string;
         state(opts?: Options): string;
         street(opts?: Options): string;
